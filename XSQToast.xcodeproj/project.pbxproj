@@ -14,6 +14,7 @@
 		BF2552341ECBE8CE0047E594 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF2552321ECBE8CE0047E594 /* LaunchScreen.storyboard */; };
 		BF25523F1ECBE8CE0047E594 /* XSQToastTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF25523E1ECBE8CE0047E594 /* XSQToastTests.swift */; };
 		BF25524A1ECBE8CE0047E594 /* XSQToastUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF2552491ECBE8CE0047E594 /* XSQToastUITests.swift */; };
+		BF25525C1ECC0E9F0047E594 /* XSQToast.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF25525B1ECC0E9F0047E594 /* XSQToast.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,15 +39,16 @@
 		BF2552291ECBE8CE0047E594 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BF25522B1ECBE8CE0047E594 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		BF25522E1ECBE8CE0047E594 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		BF2552301ECBE8CE0047E594 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BF2552301ECBE8CE0047E594 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../XSQToast/Assets.xcassets; sourceTree = "<group>"; };
 		BF2552331ECBE8CE0047E594 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		BF2552351ECBE8CE0047E594 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BF2552351ECBE8CE0047E594 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = ../XSQToast/Info.plist; sourceTree = "<group>"; };
 		BF25523A1ECBE8CE0047E594 /* XSQToastTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XSQToastTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF25523E1ECBE8CE0047E594 /* XSQToastTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XSQToastTests.swift; sourceTree = "<group>"; };
 		BF2552401ECBE8CE0047E594 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BF2552451ECBE8CE0047E594 /* XSQToastUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XSQToastUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF2552491ECBE8CE0047E594 /* XSQToastUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XSQToastUITests.swift; sourceTree = "<group>"; };
 		BF25524B1ECBE8CE0047E594 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BF25525B1ECC0E9F0047E594 /* XSQToast.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XSQToast.swift; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,10 +101,7 @@
 			children = (
 				BF2552291ECBE8CE0047E594 /* AppDelegate.swift */,
 				BF25522B1ECBE8CE0047E594 /* ViewController.swift */,
-				BF25522D1ECBE8CE0047E594 /* Main.storyboard */,
-				BF2552301ECBE8CE0047E594 /* Assets.xcassets */,
-				BF2552321ECBE8CE0047E594 /* LaunchScreen.storyboard */,
-				BF2552351ECBE8CE0047E594 /* Info.plist */,
+				BF25525B1ECC0E9F0047E594 /* XSQToast.swift */,
 			);
 			path = XSQToast;
 			sourceTree = "<group>";
@@ -110,6 +109,10 @@
 		BF25523D1ECBE8CE0047E594 /* XSQToastTests */ = {
 			isa = PBXGroup;
 			children = (
+				BF25522D1ECBE8CE0047E594 /* Main.storyboard */,
+				BF2552301ECBE8CE0047E594 /* Assets.xcassets */,
+				BF2552321ECBE8CE0047E594 /* LaunchScreen.storyboard */,
+				BF2552351ECBE8CE0047E594 /* Info.plist */,
 				BF25523E1ECBE8CE0047E594 /* XSQToastTests.swift */,
 				BF2552401ECBE8CE0047E594 /* Info.plist */,
 			);
@@ -262,6 +265,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BF25525C1ECC0E9F0047E594 /* XSQToast.swift in Sources */,
 				BF25522C1ECBE8CE0047E594 /* ViewController.swift in Sources */,
 				BF25522A1ECBE8CE0047E594 /* AppDelegate.swift in Sources */,
 			);
@@ -305,6 +309,7 @@
 				BF25522E1ECBE8CE0047E594 /* Base */,
 			);
 			name = Main.storyboard;
+			path = ../XSQToast;
 			sourceTree = "<group>";
 		};
 		BF2552321ECBE8CE0047E594 /* LaunchScreen.storyboard */ = {
@@ -313,6 +318,7 @@
 				BF2552331ECBE8CE0047E594 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			path = ../XSQToast;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
